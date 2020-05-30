@@ -1,4 +1,4 @@
-package controller;
+package service;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,7 +12,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class Control {
+public class Service {
 
 	public boolean getPerson() {
 		try {

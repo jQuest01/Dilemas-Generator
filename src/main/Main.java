@@ -2,15 +2,15 @@ package main;
 
 import javax.swing.JOptionPane;
 
-import controller.Control;
+import service.Service;
 
 public class Main {
 
 	public static void main(String[] args) {
-		Control control = new Control();
+		Service service = new Service();
 		int numP = Integer.parseInt(JOptionPane.showInputDialog("Quantas pessoas deseja gerar?"));
 		for (int i = 0; i < numP; i++) {
-			control.generateEverything();
+			service.generateEverything();
 			if (i == (numP/2)-1) {
 				System.out.println("Tá acabando, pera ae");
 			}
